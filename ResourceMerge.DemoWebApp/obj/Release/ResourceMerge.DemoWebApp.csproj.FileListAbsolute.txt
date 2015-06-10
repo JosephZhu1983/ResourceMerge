@@ -1,0 +1,7 @@
+E:\aot\Dev\ResourceMerge\ResourceMerge.DemoWebApp\bin\ResourceMerge.DemoWebApp.dll
+E:\aot\Dev\ResourceMerge\ResourceMerge.DemoWebApp\bin\ResourceMerge.DemoWebApp.pdb
+E:\aot\Dev\ResourceMerge\ResourceMerge.DemoWebApp\bin\ResourceMerge.Core.dll
+E:\aot\Dev\ResourceMerge\ResourceMerge.DemoWebApp\bin\Enyim.Caching.dll
+E:\aot\Dev\ResourceMerge\ResourceMerge.DemoWebApp\obj\Release\ResolveAssemblyReference.cache
+E:\aot\Dev\ResourceMerge\ResourceMerge.DemoWebApp\obj\Release\ResourceMerge.DemoWebApp.dll
+E:\aot\Dev\ResourceMerge\ResourceMerge.DemoWebApp\obj\Release\ResourceMerge.DemoWebApp.pdb

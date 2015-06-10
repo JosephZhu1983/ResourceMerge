@@ -1,0 +1,14 @@
+E:\aot\Dev\ResourceMerge\PreOptTool\bin\Release\PreOptTool.exe.config
+E:\aot\Dev\ResourceMerge\PreOptTool\bin\Release\PreOptTool.exe.manifest
+E:\aot\Dev\ResourceMerge\PreOptTool\bin\Release\PreOptTool.application
+E:\aot\Dev\ResourceMerge\PreOptTool\bin\Release\PreOptTool.exe
+E:\aot\Dev\ResourceMerge\PreOptTool\bin\Release\PreOptTool.pdb
+E:\aot\Dev\ResourceMerge\PreOptTool\bin\Release\AjaxMin.dll
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\ResolveAssemblyReference.cache
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\PreOptTool.Form1.resources
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\PreOptTool.Properties.Resources.resources
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\PreOptTool.csproj.GenerateResource.Cache
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\PreOptTool.exe.manifest
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\PreOptTool.application
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\PreOptTool.exe
+E:\aot\Dev\ResourceMerge\PreOptTool\obj\Release\PreOptTool.pdb

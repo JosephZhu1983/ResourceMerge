@@ -1,0 +1,7 @@
+﻿@charset "utf-8"; @import "http://images001.5173cdn.com/css/header/header_v32.css";
+
+body
+{
+	color:Blue;
+}
+

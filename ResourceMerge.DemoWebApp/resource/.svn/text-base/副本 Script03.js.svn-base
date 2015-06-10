@@ -1,0 +1,3 @@
+﻿function HiFromScript3() {
+    alert('hi from script 3');
+}

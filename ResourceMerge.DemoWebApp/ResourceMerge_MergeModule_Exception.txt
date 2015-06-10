@@ -1,0 +1,30 @@
+2010-6-28 17:23:31
+System.Web.HttpException: 控件包含代码块(即 <% ... %>)，因此无法修改控件集合。
+   在 System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   在 ResourceMerge.Core.MergeModule.page_Init(Object sender, EventArgs e) 位置 E:\aot\Dev\ResourceMerge\ResourceMerge.Core\MergeModule.cs:行号 233
+
+2010-6-28 17:23:39
+System.Web.HttpException: 控件包含代码块(即 <% ... %>)，因此无法修改控件集合。
+   在 System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   在 ResourceMerge.Core.MergeModule.page_Init(Object sender, EventArgs e) 位置 E:\aot\Dev\ResourceMerge\ResourceMerge.Core\MergeModule.cs:行号 233
+
+2010-6-28 17:24:26
+System.Web.HttpException: 控件包含代码块(即 <% ... %>)，因此无法修改控件集合。
+   在 System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   在 ResourceMerge.Core.MergeModule.page_Init(Object sender, EventArgs e) 位置 E:\aot\Dev\ResourceMerge\ResourceMerge.Core\MergeModule.cs:行号 233
+
+2010-6-28 17:24:28
+System.Web.HttpException: 控件包含代码块(即 <% ... %>)，因此无法修改控件集合。
+   在 System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   在 ResourceMerge.Core.MergeModule.page_Init(Object sender, EventArgs e) 位置 E:\aot\Dev\ResourceMerge\ResourceMerge.Core\MergeModule.cs:行号 233
+
+2010-6-28 17:24:46
+System.Web.HttpException: 控件包含代码块(即 <% ... %>)，因此无法修改控件集合。
+   在 System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   在 ResourceMerge.Core.MergeModule.page_Init(Object sender, EventArgs e) 位置 E:\aot\Dev\ResourceMerge\ResourceMerge.Core\MergeModule.cs:行号 233
+
+2010-6-28 17:25:06
+System.Web.HttpException: 控件包含代码块(即 <% ... %>)，因此无法修改控件集合。
+   在 System.Web.UI.ControlCollection.AddAt(Int32 index, Control child)
+   在 ResourceMerge.Core.MergeModule.page_Init(Object sender, EventArgs e) 位置 E:\aot\Dev\ResourceMerge\ResourceMerge.Core\MergeModule.cs:行号 233
+

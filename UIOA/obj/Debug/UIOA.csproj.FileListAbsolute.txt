@@ -1,0 +1,8 @@
+E:\aot\Dev\ResourceMerge\UIOA\bin\Debug\UIOA.exe
+E:\aot\Dev\ResourceMerge\UIOA\bin\Debug\UIOA.pdb
+E:\aot\Dev\ResourceMerge\UIOA\obj\Debug\ResolveAssemblyReference.cache
+E:\aot\Dev\ResourceMerge\UIOA\obj\Debug\UIOA.Form1.resources
+E:\aot\Dev\ResourceMerge\UIOA\obj\Debug\UIOA.Properties.Resources.resources
+E:\aot\Dev\ResourceMerge\UIOA\obj\Debug\UIOA.csproj.GenerateResource.Cache
+E:\aot\Dev\ResourceMerge\UIOA\obj\Debug\UIOA.exe
+E:\aot\Dev\ResourceMerge\UIOA\obj\Debug\UIOA.pdb

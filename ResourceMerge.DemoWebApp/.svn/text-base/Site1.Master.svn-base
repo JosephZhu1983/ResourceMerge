@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ResourceMerge.DemoWebApp.Site1" %>
+
+<%@ Register Assembly="ResourceMerge.Core" Namespace="ResourceMerge.Core" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:PlaceHolder runat="server" ID="StyleHolder1"></asp:PlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+  <script type="text/javascript" language="javascript" src="http://<%= System.Configuration.ConfigurationManager.AppSettings["jspath"].ToString() %>/PagesScript/www/DefaultNewV1.js" charset="gb2312" ></script>
+  
+       <ResourceMerge:RawResource ID="RawResource99" runat="server" Url="~/resource/1.css"/>
+    
+        <ResourceMerge:RawResource ID="RawResource1" runat="server" Url="http://images.5173cdn.com/5173/css/base.css" RenderPriority="-1"/>
+        <ResourceMerge:RawResource ID="RawResource2" runat="server" Url="~/RESOURCE/StylesheetSample2.css" IsMerge="false"/>
+        <ResourceMerge:RawResource ID="RawResource4" runat="server" Url="~/RESOURCE/StylesheetSample3.css"  IsMerge="false"/>
+      
+   <ResourceMerge:RawResource ID="RawResource6" runat="server" Url="http://images.5173cdn.com/5173/js/scroll.js" />
+   
+  
+        <ResourceMerge:RawResource ID="RawResource10" runat="server" Url="http://images.5173cdn.com/5173/js/newIndex/toolTip.js" />
+        <ResourceMerge:RawResource ID="RawResource12" runat="server" ResourceType="Style" RenderPriority="1">
+            .tradbutton { BORDER-RIGHT: #ff9900 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ff9900
+            0px solid; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(http://images.5173CDN.com/Images/list_20070123.gif);
+            PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ff9900 0px solid; WIDTH: 62px; COLOR:
+            #ff7800; PADDING-TOP: 2px; BORDER-BOTTOM: #ff9900 0px solid; HEIGHT: 20px; BACKGROUND-COLOR:
+            #fff }
+        </ResourceMerge:RawResource>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+                 <ResourceMerge:RawResource ID="RawResource9" runat="server" Url="~/resource/5.css"/>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    </div>
+       <asp:PlaceHolder runat="server" ID="ScriptHolder1"></asp:PlaceHolder>
+    </form>
+</body>
+</html>

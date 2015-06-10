@@ -1,0 +1,5 @@
+﻿body
+{
+	background-color: Gray;
+	font-family: 宋体, Arial, Helvetica, sans-serif;
+}

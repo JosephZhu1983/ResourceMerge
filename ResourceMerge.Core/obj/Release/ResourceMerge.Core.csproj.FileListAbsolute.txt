@@ -1,0 +1,4 @@
+E:\aot\Dev\ResourceMerge\ResourceMerge.Core\bin\Release\ResourceMerge.Core.dll
+E:\aot\Dev\ResourceMerge\ResourceMerge.Core\bin\Release\Enyim.Caching.dll
+E:\aot\Dev\ResourceMerge\ResourceMerge.Core\obj\Release\ResolveAssemblyReference.cache
+E:\aot\Dev\ResourceMerge\ResourceMerge.Core\obj\Release\ResourceMerge.Core.dll

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceMerge>
+  <Common>
+    <!--输出合并后文件Handler地址，可以是一个相对路径也可以是绝对路径，默认为~/MergeHandler.ashx-->
+    <MergeHandlerUrl>~/www/MergeHandler.ashx</MergeHandlerUrl>
+    <!--服务端缓存键前缀，修改这个值能立即让服务端缓存失效，默认为ResourceMerge_，每一个网站必须设定不同的值，否则会看到其它网站的缓存或清空其它网站的缓存-->
+    <CacheKeyPrefix>TestResourceMerge_</CacheKeyPrefix>
+    <!--全局应用的ConfigSetName，默认为名为Default的配置，都是默认值-->
+    <GlobalConfigSetName>s1</GlobalConfigSetName>
+    <!--放控件的PlaceHolder的ID，如果不声明需要#替换%并且Bind-->
+    <StyleHolderID>StyleHolder1</StyleHolderID>
+    <ScriptHolderID>ScriptHolder1</ScriptHolderID>
+  </Common>
+  <ConfigSets>
+    <ConfigSet>
+      <!--标识名-->
+      <Name>s1</Name>
+      <!--资源的字符集，需要和实际文件字符集对应否则可能出现乱码，默认为utf-8-->
+      <Charset>utf-8</Charset>
+      <!--是否进行样式文件合并，即使不合并也会重新调整资源的呈现位置，默认为true-->
+      <IsMergeStyle>true</IsMergeStyle>  
+      <!--是否进行样式文件最小化，比如去除空行和注释等，默认为true-->
+      <IsMinifyStyle>true</IsMinifyStyle>
+      <!--是否进行脚本文件合并，即使不合并也会重新调整资源的呈现位置，默认为true-->
+      <IsMergeScript>true</IsMergeScript>
+      <!--是否进行脚本文件最小化，比如去除空行和注释等，默认为true-->
+      <IsMinifyScript>true</IsMinifyScript>
+      <!--是否进行文件gzip压缩，如果web服务器或cdn已经开启了压缩，这里就不需要开了，默认为true-->
+      <IsCompress>false</IsCompress>
+      <!--是否从远程获取资源的时候支持gzip或deflate，默认为true-->
+      <GetCompressedRemoteResource>false</GetCompressedRemoteResource>
+      <!--是否把合并以及压缩后的文件保存在服务端内存中，默认为true-->
+      <UseServerCache>false</UseServerCache>
+      <!--是否为合并以及压缩后的文件开启客户端浏览器缓存，默认为true-->
+      <UseClientCache>false</UseClientCache>
+      <!--服务端缓存过期时间，单位是秒，默认为3600-->
+      <ServerCacheDuration>30</ServerCacheDuration>
+      <!--客户端缓存过期时间，单位是秒，默认为3600-->
+      <ClientCacheDuration>60</ClientCacheDuration>
+      <!--校验资源文件的结束符，如果为空表示不校验-->
+      <StaticResrouceSuffix></StaticResrouceSuffix>
+    </ConfigSet>
+  </ConfigSets>
+  <Pages>
+    <Page Url="~/WebForm1.aspx" ConfigSetName="s2" />
+  </Pages>
+</ResourceMerge>

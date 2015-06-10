@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<memcached-configuration xmlns="urn:memcached-configuration">
+  <master>
+    <memcached>
+      <server address="192.168.135.11" port="11213" />
+      <server address="192.168.135.11" port="11212" />
+      <server address="192.168.135.11" port="11211" />
+      <socket-pool minPoolSize="10" maxPoolSize="100" connectionTimeout="00:00:10" deadTimeout="00:02:00" />
+    </memcached>
+  </master>
+</memcached-configuration>
